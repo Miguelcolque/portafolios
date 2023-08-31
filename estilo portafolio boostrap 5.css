@@ -1,0 +1,316 @@
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+    .res{
+        animation-name: slidein;
+        animation-duration: 3s;
+        color: #fff;
+        justify-content: center;
+ }
+ .ress{
+    animation-name: slidein;
+        animation-duration: 3s;
+        color: #fff;
+ }
+ .re{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+ }
+ 
+:root{
+    --main-color:aqua;
+    --respuesta-texto: rgb(255, 255, 255);
+    --pregunta-texto:blue;
+ 
+}
+.ress{
+    color: rgb(245, 248, 248);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: center;
+    
+    text-align: justify;
+    list-style: none;
+}
+.calles__e{
+    color:var(--pregunta-texto);
+    font-size: x-large;
+    font-style: italic;
+}
+.calles__respuesta{
+    color:var(--respuesta-texto);
+    font-size: 14px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-weight: bold;
+}
+.objetivos__prioridades{
+        color:var(--pregunta-texto);
+        font-size: x-large;
+        font-style: italic;
+}
+.objetivos__res{
+        color:var(--respuesta-texto);
+        font-size: 14px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-weight: bold;
+}
+.preguntasflecuentes__pre{
+        color: #ffffff;
+        font-style: italic;
+        display: flex;
+        
+        
+}
+.preguntasflecuentes__res{
+        color: var(--respuesta-texto);
+        font-size: 14px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-weight: bold;
+}
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+.muerte1{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.muerte{
+  width: 400px;
+  height: 400px;
+  margin:10px;
+  border:0px solid blue;
+  color:aliceblue;
+  list-style: none; 
+  }  
+.torretass{
+    display: flex;
+    flex-direction: row;
+}
+.individor{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cariles{
+    display: flex;
+    flex-direction: row;
+}
+.dragones{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nazort{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.heraldos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contenedor{
+    background-color: rgb(5, 10, 10);
+    padding: 15px;
+    text-align: center;
+}
+.con{
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.fcc-btn {
+  background-color: #0cbb12;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  
+  
+}
+.fcc-btn:hover {
+  background-color: #21bec9;
+}
+.fcc-btnn {
+  background-color: #0c0901;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  
+}
+.fcc-btnn:hover {
+  background-color: #1429a4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dt {
+    background: #2c42d5;
+    border-bottom: 1px solid #989ea4;
+    border-top: 1px solid #717d85;
+    color: #fff;
+    font:
+      bold 18px/21px Helvetica,
+      Arial,
+      sans-serif;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px
+}
+
+body {
+  background-color: #21222c;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    margin-top: 0%;
+  }
+  
+  
+  
+  nav {
+    float: left; 
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background: #160abb;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .contenedorr{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.uuuuuuuu{
+  width: 120%;
+    height: 20px;
+    margin-top: 30px;
+    outline: 0px solid;
+}
+
